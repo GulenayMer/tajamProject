@@ -4,9 +4,85 @@
 
 /*
 button = #00e0d0;
+
+text grey: #b8b8b8;
 */
 
 body{
 	background: #fff;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
+
+
+
+
+
+
+
+
+/* This is for tthe content section */
+
+/* expertise section in the main content */
+.expertise{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid red;
+}
+
+.expertise .expertise-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	align-items: center;
+	/* gap: 1rem;
+	padding: 2rem; */
+}
+
+.expertise-container .expertise-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* padding: 0.9rem; */
+}
+
+/* Meet the team section in the main content */
+.team{
+	background-image: url(./images/png/bgk-middle.png);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+
+.team-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* padding: 2rem; */
+}
+
+.team-container-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	border: 1px solid #fff;
+}
+
+
+.team-container-item div{
+	width: 100%;
+	height: 20vh; 
+	background: #fff;
+}
+
