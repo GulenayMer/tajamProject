@@ -13,6 +13,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 	margin: 0;
 	padding: 0;
 }
@@ -50,7 +51,7 @@ body{
 
 /* Meet the team section in the main content */
 .team{
-	background-image: url(./images/png/bgk-middle.png);
+	background-image: url(./images/bgk-middle.png);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
