@@ -10,10 +10,7 @@ text grey: #b8b8b8;
 
 body{
 	background: #fff;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+
 }
 
 
