@@ -1,0 +1,57 @@
+*{
+	box-sizing: border-box;
+}
+
+/*
+button = #00e0d0;
+*/
+
+body{
+	background: #fff;
+
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+}
+
+.f1-container {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.good-news {
+
+}
+
+.happy-client {
+
+}
+
+.f2-container {
+    display: flex;s
+    background-image: url(images/bgk-footer.png);
+    width: 100vw;
+    padding: 3%;
+}
+
+.toppy {
+
+}
+
+.foot-lorem {
+
+}
+
+.our-studio {
+
+}
+
+.stay-in-touch {
+
+}
+
+.footy {
+
+}
