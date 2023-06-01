@@ -13,4 +13,21 @@ body{
 	justify-content: center;
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li {
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px 20px;
+	text-decoration: none;
 }
