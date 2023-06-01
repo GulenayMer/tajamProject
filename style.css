@@ -13,21 +13,37 @@ body{
 	justify-content: center;
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
 }
+
+.hero {
+background-image:url("images/bgk-header.png") ;
+height: 80vh;
+background-size: cover;
+background-position: center;
+}
+
+
 
 nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	color: white;
-	text-decoration: none;
+	
+	
+	
 }
+nav ul {
+float: right;
 
+
+}
 nav ul li {
-	color: white;
 	display: inline-block;
 	list-style-type: none;
 	padding: 10px 20px;
+}
+
+nav ul li a {
+	color: white;
 	text-decoration: none;
 }
