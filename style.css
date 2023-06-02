@@ -8,50 +8,239 @@ button = #00e0d0;
 
 body{
 	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
 
+h2 {
+	font-family: 'Playfair Display ', serif;
 }
 
 footer {
-    display: flex;
-    width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .f1-container {
-    display: flex;
-    background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	width: 90%;
 }
 
 .good-news {
+	display: flex;
+	width: 50%;
+	padding: 2rem;
+	flex-direction: column;
+	height: 100%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+form input {
+	padding: 2%;
+	border: 1px solid lightgray;
+}
+
+form textarea {
+	border: 1px solid lightgray;
+	font-family: roboto;
+	padding: 2%;
+}
+
+form ::placeholder {
+	color: lightgray;
+}
+
+.news-button {
+	color: #00e0d0;
+	border: 1px solid #00e0d0;
+	width: 30%;
+	background-color: transparent;
+	box-shadow: none;
+	border-radius: 4px;
 
 }
 
 .happy-client {
+	width: 50%;
+	margin: 3%;
 
+}
+
+.logo-container {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.logo-column1 {
+    display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding: 3%;
+}
+
+.logo-column2 {
+    display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding: 3%;
+
+}
+
+.logo-item {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 3%;
+	margin: 1rem;
+}
+
+.logo-item img {
+	width: 100%;
+    height: 100%;
+	padding: 3%;
 }
 
 .f2-container {
-    display: flex;s
-    background-image: url(images/bgk-footer.png);
-    width: 100vw;
-    padding: 3%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(images/bgk-footer.png);
+	background-size: cover;
+	width: 100vw;
+	padding: 5%;
 }
 
-.toppy {
+.footloose {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
 
 }
 
-.foot-lorem {
+.footloose p {
+	color: #fff;
+	font-size: small;
+	align-items: flex-start;
+}
 
+.tajam-blurb {
+	width: 33.33%;
+}
+
+.tajam-logo-sm {
+	color: #00e0d0;
+	display: flex;
+	flex-direction: row;
+}
+
+.tajam-logo-sm img {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+
+.logo-text {
+	display: flex;
+	justify-content: center;
+	padding: 2%;
 }
 
 .our-studio {
+	width: 33.33%;
+}
 
+.f-address {
+	display: flex;
+	flex-direction: row;
+}
+
+.f-address img {
+	align-self: center;
+	margin-right: 3%;
+}
+
+.f-phone {
+	display: flex;
+	flex-direction: row;
+}
+
+.f-phone img {
+	align-self: center;
+	margin-right: 3%;
 }
 
 .stay-in-touch {
-
+	width: 33.33%;
 }
 
-.footy {
+.f-search {
+	display: flex;
+	flex-direction: row;
+	margin-top: 8%;
+	margin-bottom: 5%;
+	width: 100%;
+}
 
+.f-search button {
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	opacity: 0.5;
+	box-shadow: none;
+	width: 200px;
+}
+
+.paper {
+	background-color: white;
+	opacity: 0.5;
+	margin-left: 3%;
+	padding: 3%;
+	width: 60px;
+}
+
+.paper img {
+	padding: 2%;
+}
+
+.f-social {
+	align-items: flex-start;
+	margin-top: 8%;
+}
+
+.f-social img {
+	justify-content: space-between;
+	margin-right: 2%;
+	align-self: center;
+	height: auto;
+}
+
+.footy-left {
+	display: flex;
+	flex-direction: row;
+	margin-top: 5rem;
+}
+
+.footy-left p {
+	margin-right: 4%;
+}
+
+.footy-right {
+	display: flex;
+	flex-direction: row;
+	margin-top: 3rem;
+	justify-content: right;
 }
