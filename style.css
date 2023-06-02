@@ -14,3 +14,91 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+.hero {
+background-image:url("images/bgk-header.png") ;
+height: 80vh;
+width: 100vw;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	
+	
+}
+
+.logo {
+	padding: 3rem;
+	display: flex;
+	gap: 1rem;
+}
+
+.logo h2 {
+	gap: rem;
+	font-size: 1.5rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #30659c;
+	font-family: "Roboto", sans-serif;
+}
+
+nav ul {
+padding-right: 10rem;
+display: inline-block;
+
+
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px 20px;
+	
+	
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+.hero .heading {
+	font-size: 2rem;
+	color: white;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 5rem;
+}
+
+.hero p {
+	color: white;
+	display:flex;
+	justify-content: center;
+	text-align: center;
+	margin: 4rem 30rem 2rem 30rem;
+	font-size: 1.2rem;
+	font-family: "Roboto";
+}
+
+.hero .learnButton {
+	color: #00e0d0;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.hero .learnButton button {
+	
+}
