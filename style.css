@@ -90,3 +90,15 @@ nav ul li a {
 	font-size: 1.2rem;
 	font-family: "Roboto";
 }
+
+.hero .learnButton {
+	color: #00e0d0;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.hero .learnButton button {
+	
+}
