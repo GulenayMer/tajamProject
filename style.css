@@ -119,6 +119,20 @@ nav ul li a:hover {
 	color: white;
 }
 
+.story .learnButton button {
+	color: #00e0d0;
+	border: 1px solid #00e0d0 ;
+	background: none;
+	text-transform: uppercase;
+	margin-top: 0.7rem;
+	padding: 0.7rem 1.3rem;
+}
+
+.story .learnButton button:hover {
+	background: #3e3d3d;
+	color: white;
+}
+
 .story {
 	display: flex;
 	padding: 3rem;
@@ -153,3 +167,27 @@ nav ul li a:hover {
 	font-family: "Roboto";
 }
 
+.video {
+	background-image: url("images/bgk-middle.png");
+	width: 100vw;
+	height: 55vh;
+	background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.play {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 15rem;
+	
+}
+
+.video h4 {
+	color: white;
+	font-family: "Roboto";
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
+}
